@@ -1,0 +1,15 @@
+.nav a{
+  color:black;
+}
+
+.jumbotron {
+  height: 500px;
+  color: white;
+  background: url(../images/fondo.jpg) no-repeat center center fixed;
+}
+
+
+.curiosidades{
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
