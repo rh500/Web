@@ -1,5 +1,19 @@
 $(document).ready(function() {
 	$("button").click(function () {
-		$("p").togle();
+		$("#1").toggle();
+	});
+
+	$(".jumbotron").click(function() {
+		$(this).hide('slow', function() {
+			$("button").prop('class', 'btn btn-default')
+		});
+	});
+
+	$(".jumbotron").mouseleave(function() {
+		$(this).css('background-color', 'blue');
+	});
+
+	$(".jumbotron").mouseenter(function() {
+		$(this).css('background-color','yellow');
 	});
 });
