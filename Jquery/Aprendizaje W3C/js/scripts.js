@@ -1,19 +1,18 @@
 $(document).ready(function() {
-	$("button").click(function () {
-		$("#1").toggle();
-	});
-
-	$(".jumbotron").click(function() {
-		$(this).hide('slow', function() {
-			$("button").prop('class', 'btn btn-default')
+	$("#toggle").click(function () {
+		$("#1").toggle('slow',function () {
+			$("#2").toggle('slow',function () {
+				$(".jumbotron").animate({height:'50px',width:'toggle'},600);
+			});
 		});
 	});
 
-	$(".jumbotron").mouseleave(function() {
-		$(this).css('background-color', 'blue');
+	$(".jumbotron").click(function() {
+		var div= $(".jumbotron");
+		div.animate({height:'50px'});
+		div.animate({width:'100px'});
+		div.animate({height:'500px'});
+		div.animate({width:'200px'});
 	});
 
-	$(".jumbotron").mouseenter(function() {
-		$(this).css('background-color','yellow');
-	});
 });
