@@ -1,0 +1,56 @@
+/*no flotar*/
+.nf{
+	clear: both;
+}
+body{
+	background-color: #333;
+
+}
+section#container{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+header{
+	
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #ccc;
+}
+	header img{
+		width: 200px;
+		height: 200px;
+		padding: 10px 20px;
+	}
+	header div#buscador{
+		float: right;
+		padding-right: 20px;
+		margin-top: 90px;
+
+	}
+div#content{
+	width: 655px;
+	height: 450px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #c3c3c3;
+	float: left;
+	padding: 10px;
+}
+
+aside{
+	width: 260px;
+	height: 450px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #c3c3c3;
+	float: left;
+	padding: 10px;
+}
+footer{
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #ddd;
+	text-align: center;
+
+}
