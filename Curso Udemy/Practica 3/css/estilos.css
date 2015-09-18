@@ -1,1 +1,57 @@
-estilos.css
+/***RESETS***/
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body, h1, h2, h3, h4, ul, li{
+	margin: 0;
+}
+
+h1 img{
+	display: block;
+}
+img{
+	border: 0;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.nf{
+	clear: both;
+}
+/**Estilos Generales**/
+body{
+	font-size: 12px;
+	margin: 0 auto;
+}
+header{
+	background: url(../images/bg_header.jpg);
+	border-bottom: 5px solid  #7e0001; 
+	height: 87px;
+}
+nav{
+	background: url(../images/bg_menu.jpg);
+	height: 30px;
+
+}
+	nav ul{
+		list-style: none;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	nav ul li{
+		display: inline-block;
+		padding-left: 65px;
+
+	}
+	nav a{
+		color: #fff;
+		display: block;
+		font-family: verdana;
+		height: 13px;
+		line-height: 13px;
+		padding: 8px;
+		text-transform: uppercase;
+		transition: all 0.5s ease-in;
+	}
